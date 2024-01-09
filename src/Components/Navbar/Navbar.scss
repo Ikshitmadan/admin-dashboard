@@ -1,0 +1,74 @@
+.navbar{
+
+
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+height: 60px;
+   .icons{
+    padding-top: 5px;
+
+    display: flex;
+
+    align-items: center;
+    gap: 3px;
+
+
+
+    .users{
+
+        display: flex;
+
+        align-items: center;
+        gap: 1;
+padding-right: 5px;
+    img{
+
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        object-fit: cover
+
+    }
+    }
+
+    .notifications{
+
+        position: relative;
+        img{
+            height: 22px;
+            width: 30px;
+    
+
+        }
+        .digit{
+        
+        height: 14px;
+        width: 14px;
+        background-color: red;
+        position: absolute;
+        top:-1px;
+        border-radius: 50%;
+        left: 10px;
+        right: -10px;
+        font-size: 10px;
+        text-align: center;
+        }
+        }
+
+    .icon{
+
+        height: 22px;
+        width: 30px;
+
+    }
+
+   }
+.logo{
+
+display: flex;
+align-items: center;
+gap: 5px;
+    }
+}
